@@ -1,4 +1,4 @@
-import os, sys
+import asyncio, os, sys
 
 from pyrogram import Client
 from pyrogram import filters
@@ -105,36 +105,47 @@ async def sudo_users():
     
 
 async def run_async_clients():
-    LOGGER.info("Starting HeartBeat-X-Bot ...")
+    LOGGER.info("Starting HeartBeat-X-Userbot ...")
     await app.start()
-    LOGGER.info("HeartBeat-X-Bot Started.")
+    LOGGER.info("HeartBeat-X-Userbot Started.")
     try:
-        await app.send_message(LOG_GROUP_ID, "**HeartBeat-X-Bot Started**")
+        await app.send_message(LOG_GROUP_ID, "**HeartBeat-X-Userbot Started.**")
     except:
         pass
     try:
         await app.join_chat("HeartBeat_Offi")
-            await app.join_chat("HeartBeat_Muzic")
+        await app.join_chat("HeartBeat_Muzic")
     except:
         pass
     if SESSION_STRING:
-        LOGGER.info("HeartBeat Started ...")
+        LOGGER.info("Starting HeartBeat ...")
         await ass.start()
-        LOGGER.info("Assistant Started.")
+        LOGGER.info("HeartBea Started.")
         try:
             await ass.send_message(LOG_GROUP_ID, "**HeartBeat Started**")
         except:
             pass
         try:
             await app.join_chat("HeartBeat_Offi")
-            await app.join_chat("HeartBeat_Muzic")
+        await app.join_chat("HeartBeat_Muzic")
         except:
             pass
-    LOGGER.info("Starting Helper Robot ...")
+    LOGGER.info("Starting HeartBeat-X-Userbot ...")
     await bot.start()
-    LOGGER.info("Helper Robot Started.")
     try:
-        await bot.send_message(LOG_GROUP_ID, "**HeartBeat-X-Bot Started**")
+        await app.send_message("BotFather", "/start")
+        await asyncio.sleep(1)
+        await app.send_message("BotFather", "/setinline")
+        await asyncio.sleep(1)
+        await app.send_message("BotFather", f"@{bot.me.username}")
+        await asyncio.sleep(1)
+        await app.send_message("BotFather", "HeartBeat-X-Userbot")
+    except Exception as e:
+        print(e)
+        pass
+    LOGGER.info("Join Us @HeartBeat_Muzic")
+    try:
+        await bot.send_message(LOG_GROUP_ID, "**Join Us @HeartBeat_Muzic**")
     except:
         pass
     LOGGER.info("Starting PyTgCalls Client...")

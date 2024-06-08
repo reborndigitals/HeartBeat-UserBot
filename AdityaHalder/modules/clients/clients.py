@@ -52,7 +52,7 @@ async_dirs()
     
 
 app = Client(
-    name = "AdityaHalder",
+    name = "rajeshrakis",
     api_id = API_ID,
     api_hash = API_HASH,
     session_string = STRING_SESSION,
@@ -85,7 +85,7 @@ def mongodbase():
         LOGGER.info("Connecting To Your Database ...")
         async_client = AsyncIOMotorClient
         mongobase = async_client(MONGO_DB_URL)
-        mongodb = mongobase.AdityaHalder
+        mongodb = mongobase.rajeshrakis
         LOGGER.info("Conected To Your Database.")
     except:
         LOGGER.error("Failed To Connect, Please Change Your Mongo Database !")

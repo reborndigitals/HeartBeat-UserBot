@@ -113,21 +113,21 @@ async def run_async_clients():
     except:
         pass
     try:
-        await app.join_chat("HeartBeat_Offi")
         await app.join_chat("HeartBeat_Muzic")
+        await app.join_chat("HeartBeat_Offi")
     except:
         pass
     if SESSION_STRING:
         LOGGER.info("Starting HeartBeat ...")
         await ass.start()
-        LOGGER.info("HeartBea Started.")
+        LOGGER.info("HeartBeat Started.")
         try:
             await ass.send_message(LOG_GROUP_ID, "**HeartBeat Started**")
         except:
             pass
         try:
+            await app.join_chat("HeartBeat_Muzic")
             await app.join_chat("HeartBeat_Offi")
-        await app.join_chat("HeartBeat_Muzic")
         except:
             pass
     LOGGER.info("Starting HeartBeat-X-Userbot ...")

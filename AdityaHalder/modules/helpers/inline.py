@@ -16,12 +16,12 @@ async def help_menu_logo(answer):
     answer.append(
         InlineQueryResultPhoto(
             photo_url=f"{thumb_image}",
-            title="🥀 Help Menu ✨",
+            title="💕  Help Menu 🦋",
             thumb_url=f"{thumb_image}",
-            description=f"🥀 Open Help Menu Of HeartBeat-Assistant ✨...",
+            description=f"💕  Open Help Menu Of HeartBeat-Assistant 🦋...",
             caption=f"""
-**🥀 Welcome To Help Menu Of
-Genius Userbot » {__version__} ✨...
+**💕  Welcome To Help Menu Of
+𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-✗-𝐁𝐨𝐭 » {__version__} 🦋...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
@@ -39,10 +39,10 @@ async def help_menu_text(answer):
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultArticle(
-            title="🥀 Help Menu ✨",
+            title="💕  Help Menu 🦋",
             input_message_content=InputTextMessageContent(f"""
-**🥀 Welcome To Help Menu Of
-Genius Userbot » {__version__} ✨...
+**💕  Welcome To Help Menu Of
+𝐇𝐞𝐚𝐫𝐭𝐁𝐞𝐚𝐭-✗-𝐁𝐨𝐭 » {__version__} 🦋...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.

@@ -59,7 +59,7 @@ app = Client(
 )
 
 ass = Client(
-    name = "AdityaPlayer",
+    name = "ice_babygirl",
     api_id = API_ID,
     api_hash = API_HASH,
     session_string = SESSION_STRING,

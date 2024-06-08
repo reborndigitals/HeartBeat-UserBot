@@ -66,7 +66,7 @@ ass = Client(
 )
 
 bot = Client(
-    name = "AdityaServer",
+    name = "HeartBeat_Muzic",
     api_id = API_ID,
     api_hash = API_HASH,
     bot_token = BOT_TOKEN,
@@ -105,36 +105,36 @@ async def sudo_users():
     
 
 async def run_async_clients():
-    LOGGER.info("Starting Userbot ...")
+    LOGGER.info("Starting HeartBeat-X-Bot ...")
     await app.start()
-    LOGGER.info("Userbot Started.")
+    LOGGER.info("HeartBeat-X-Bot Started.")
     try:
-        await app.send_message(LOG_GROUP_ID, "**Userbot Started.**")
+        await app.send_message(LOG_GROUP_ID, "**HeartBeat-X-Bot Started**")
     except:
         pass
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
+        await app.join_chat("HeartBeat_Offi")
+            await app.join_chat("HeartBeat_Muzic")
     except:
         pass
     if SESSION_STRING:
-        LOGGER.info("Starting Assistant ...")
+        LOGGER.info("HeartBeat Started ...")
         await ass.start()
         LOGGER.info("Assistant Started.")
         try:
-            await ass.send_message(LOG_GROUP_ID, "**Assistant Started.**")
+            await ass.send_message(LOG_GROUP_ID, "**HeartBeat Started**")
         except:
             pass
         try:
-            await app.join_chat("AdityaServer")
-            await app.join_chat("AdityaDiscus")
+            await app.join_chat("HeartBeat_Offi")
+            await app.join_chat("HeartBeat_Muzic")
         except:
             pass
     LOGGER.info("Starting Helper Robot ...")
     await bot.start()
     LOGGER.info("Helper Robot Started.")
     try:
-        await bot.send_message(LOG_GROUP_ID, "**Helper Robot Started.**")
+        await bot.send_message(LOG_GROUP_ID, "**HeartBeat-X-Bot Started**")
     except:
         pass
     LOGGER.info("Starting PyTgCalls Client...")

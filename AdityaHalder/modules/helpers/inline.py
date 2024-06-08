@@ -11,7 +11,7 @@ async def help_menu_logo(answer):
     if image:
         thumb_image = image
     else:
-        thumb_image = "https://graph.org/file/c91b3da8a574984f02edb.jpg"
+        thumb_image = "https://graph.org/file/ffdb1be822436121cf5fd.png"
     button = paginate_plugins(0, plugs, "help")
     answer.append(
         InlineQueryResultPhoto(

@@ -46,7 +46,7 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". !").split())
 
 # PM GUARD VARS
 PM_GUARD = bool(getenv("PM_GUARD", True))
-PM_GUARD_TEXT = getenv("PM_GUARD_TEXT", "**🖤 Hey I'm 𝙃𝙚𝙖𝙧𝙩 𝘽𝙚𝙖𝙩's Assistant \n\n💥 Tag My Boss: \n https://t.me/HeartBeat_Muzic.\n\n😈 Otherwise, wait until my Boss comes, don't spam me.. \n You will be AutoBlock(upto 3 messages)**")
+PM_GUARD_TEXT = getenv("PM_GUARD_TEXT", "**☆ . * ● ¸ . ✦ .★　° :. ★ * • ○ ° ★\n🖤 ʜᴇʏ ɪ'ᴍ 𝙃𝙚𝙖𝙧𝙩 𝘽𝙚𝙖𝙩'ꜱ ᴀꜱꜱɪꜱᴛᴀɴᴛ\n☆ . * ● ¸ . ✦ .★　° :. ★ * • ○ ° ★\n\n➽─────────────────❥  💕 ​🇹​​🇦​​🇬​ ​🇲​​🇾​ ​🇱​​🇴​​🇻​​🇪​ 🦋\n https://t.me/HeartBeat_Muzic \n➽─────────────────❥\n\n  😈 ᴏᴛʜᴇʀᴡɪꜱᴇ, ᴡᴀɪᴛ ᴜɴᴛɪʟ ᴍʏ ʙᴏꜱꜱ ᴄᴏᴍᴇꜱ, ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ᴍᴇ..\nʏᴏᴜ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏʙʟᴏᴄᴋ(ᴜᴘᴛᴏ 3 ᴍᴇꜱꜱᴀɢᴇꜱ)\n\n* ● ¸ . ✦ .★　° :. ★ * • ○ ° ★**")
 PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 
 

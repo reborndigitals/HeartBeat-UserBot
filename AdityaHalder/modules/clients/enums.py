@@ -29,6 +29,7 @@ async def run_async_enums():
         pm_permit = await get_pm_permit()
         permit_image = await get_pm_image()
         permit_text = await get_pm_text()
+        button= await get_pm_button()
         if pm_permit:
             if not await is_approved_user(user_id):
                 limits = await get_pm_limit()

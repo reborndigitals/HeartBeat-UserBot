@@ -47,6 +47,13 @@ async def run_async_enums():
                     return await client.block_user(user_id)
                 pm_security = "**🤖 SECURITY WARNING ‼️ ({}/{})**".format(flood[str(user_id)], limits)
                 pm_permit_text = pm_security + "\n\n" + permit_text
+                button = [
+                    [
+                        InlineKeyboardButton(
+                            "💕 𝐓𝖆𝖌 𝐌𝖊 🦋",
+                            url=f"https://t.me/HeartBeat_Muzic"
+                        )
+                    ]
                 try:
                     msg_dlt = await message.reply_photo(
                         photo=permit_image,

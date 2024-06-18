@@ -9,6 +9,7 @@ pmallowdb = mongodb.pmallowdb
 pmimagedb = mongodb.pmimagedb
 pmtextsdb = mongodb.pmtextsdb
 pmlimitdb = mongodb.pmlimitdb
+pmbuttondb = mongodb.pmbuttondb
 
 
 # PM Permit On/Off
@@ -122,3 +123,20 @@ async def set_pm_limit(number: int) -> bool:
     )
     return True
 
+# PM Button
+async def get_pm_button() -> str:
+    dm_button = await pmtextsdb.find_one()
+    if not dm_button:
+        return vars.PM_GUARD_BUTTON
+    get_button = dm_button["pm_button"]
+    return get_button
+
+
+async def set_pm_button(buton: str) -> bool:
+    get_text = await get_pm_button()
+    await pmbuttondb.update_one(
+        {"pm_button": get_button},
+        {"$set": {"pm_button": button}},
+        upsert=True,
+    )
+    return True

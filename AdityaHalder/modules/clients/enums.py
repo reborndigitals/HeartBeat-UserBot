@@ -46,7 +46,7 @@ async def run_async_enums():
                         flood.update({user_id: 0})
                     return await client.block_user(user_id)
                 pm_security = "**🤖 SECURITY WARNING ‼️ ({}/{})**".format(flood[str(user_id)], limits)
-                pm_permit_text = pm_security + "\n\n" + permit_text +
+                pm_permit_text = pm_security + "\n\n" + permit_text
                 button = [
                     [
                         InlineKeyboardButton(
@@ -116,8 +116,3 @@ async def run_async_enums():
             except Exception as e:
                 # print(f"Error: {e}")
                 pass
-
-
-
-
-

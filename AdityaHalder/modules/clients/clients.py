@@ -132,17 +132,6 @@ async def run_async_clients():
             pass
     LOGGER.info("Starting HeartBeat-X-Userbot ...")
     await bot.start()
-    try:
-        await app.send_message("BotFather", "/start")
-        await asyncio.sleep(1)
-        await app.send_message("BotFather", "/setinline")
-        await asyncio.sleep(1)
-        await app.send_message("BotFather", f"@{bot.me.username}")
-        await asyncio.sleep(1)
-        await app.send_message("BotFather", "HeartBeat-X-Userbot")
-    except Exception as e:
-        print(e)
-        pass
     LOGGER.info("Join Us @HeartBeat_Muzic")
     try:
         await bot.send_message(LOG_GROUP_ID, "**Join Us @HeartBeat_Muzic**")

@@ -2,7 +2,7 @@ from ... import *
 from ...modules.mongo.raidzone import *
 
 
-@app.on_message(cdx(["fr", "rr", "rraid", "fuckraid"]))
+@app.on_message(cdx(["hr", "rr", "rraid", "hbraid"]))
 @sudo_users_only
 async def add_fuck_raid(client, message):
     try:
@@ -22,16 +22,16 @@ async def add_fuck_raid(client, message):
 
         if user_id == message.from_user.id:
             return await aux.edit(
-                "**🤣 How Fool, You Want To Activate Reply Raid On Your Own ID❓**"
+                "**🤣 How, You Want To Activate Reply Raid On Your Own ID❓**"
             )
         
         fraid = await add_fuckraid_user(user_id)
         if fraid:
             return await aux.edit(
-                "**🤖 Successfully Added Reply Raid On This User.**"
+                "** Ne enga ponalum na un pinala varuven.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Reply Raid Already Active On This User❗**"
+            "** Hey, Na erkanave un pinala than sutthuren❗**"
         )
     except Exception as e:
         print("Error: `{e}`")
@@ -40,7 +40,7 @@ async def add_fuck_raid(client, message):
 
 
 
-@app.on_message(cdx(["dfr", "drr", "drraid", "dfuckraid"]))
+@app.on_message(cdx(["dhr", "drr", "drraid", "dhbraid"]))
 @sudo_users_only
 async def del_fuck_raid(client, message):
     try:
@@ -60,16 +60,16 @@ async def del_fuck_raid(client, message):
         
         if user_id == message.from_user.id:
             return await aux.edit(
-                "**🤣 How Fool, When I Activate Reply Raid On Your ID❓**"
+                "**🤣 How , When I Activate Reply Raid On Your ID❓**"
             )
         
         fraid = await del_fuckraid_user(user_id)
         if fraid:
             return await aux.edit(
-                "**🤖 Successfully Removed Reply Raid From This User.**"
+                "** Successfully Removed Reply Raid From This User.**"
             )
         return await aux.edit(
-            "**🤖 Hey, Reply Raid Not Active On This User❗**"
+            "** Hey, Reply Raid Not Active On This User❗**"
         )
     except Exception as e:
         print("Error: `{e}`")

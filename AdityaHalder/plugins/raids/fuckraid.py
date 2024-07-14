@@ -66,7 +66,7 @@ async def del_fuck_raid(client, message):
         fraid = await del_fuckraid_user(user_id)
         if fraid:
             return await aux.edit(
-                "** Successfully Removed Reply Raid From This User.**"
+                "** Naa ini un pinala vara maten.**"
             )
         return await aux.edit(
             "** Hey, Reply Raid Not Active On This User❗**"

@@ -28,7 +28,7 @@ async def add_love_raid(client, message):
         lraid = await add_loveraid_user(user_id)
         if lraid:
             return await aux.edit(
-                "**🤖 Successfully Added Love Raid On This User.**"
+                "**Un mela na evlo pasam vachirkenu katren paru**"
             )
         return await aux.edit(
             "**🤖 Hey, Love Raid Already Active On This User❗**"
@@ -66,7 +66,7 @@ async def del_love_raid(client, message):
         lraid = await del_loveraid_user(user_id)
         if lraid:
             return await aux.edit(
-                "**🤖 Successfully Removed Love Raid From This User.**"
+                "**hate u po. ini un mela pasame vaika maten**"
             )
         return await aux.edit(
             "**🤖 Hey, Love Raid Not Active On This User❗**"

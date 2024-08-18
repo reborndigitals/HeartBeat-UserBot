@@ -29,5 +29,5 @@ To Your Saved Message ✨**
 `.op` - Use This Command By\nReplying On Self-Destructed
 Photo/Video.
 
-**🌿 More Commands:**\n=> [😋🥰, wow, super, 😋😍]
+**🌿 More Commands:**\n=> [paken, wow, super, wait]
 """

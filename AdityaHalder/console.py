@@ -27,11 +27,19 @@ logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 if os.path.exists("Internal"):
    load_dotenv("Internal")
 
+# Aishu
+#API_ID = int(getenv("API_ID", "8045459"))
+#API_HASH = getenv("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
+#BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAEO6UXBfVcj9BMPXsbdAgApCntlXmYjNTw")
+#STRING_SESSION = getenv("STRING_SESSION", "BQDMBnkAYiOVd1XgRlwY7fGlRrmYnn79K2KzLfsXiVAFVRYYfmTzSslg4VMO9zi3V-8UvChSAZJiu4OFnNCHnFYKstELWLGKF4KW70ml64zlF8mgCnAtUPDvJXpJtgrIcjZr-ieZAgda99Giv_ivVbh2V5wLqgSYUbSZ_GKGM4usnJvQFZg6YGMoTMWKQPuZhxphI74-_PyXED5xHpoYpBjbaw00wy8RKJzw3e_NMpXwID5Io1P2uBlx9vbmLcJMHO7DK4YvwsCXQUBNhskfzSiWQqpcVH_eZEW2NN-1uWKDsWbVZPY4PDjraaBVhF5rOi_MVx4oBTAzCV1hT2BGsljeQb7AAAAAEyRzmXAA")
+#MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
+#LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
 
+# Rajesh
 API_ID = int(getenv("API_ID", "13371001"))
 API_HASH = getenv("API_HASH", "f9e4a79850af44c26d736453a95308fc")
 BOT_TOKEN = getenv("BOT_TOKEN", "6773882212:AAGxTyLGiKX-8syKmtgRbHD4Jn5NTiem0DA")
-STRING_SESSION = getenv("STRING_SESSION", "BQDMBnkAYiOVd1XgRlwY7fGlRrmYnn79K2KzLfsXiVAFVRYYfmTzSslg4VMO9zi3V-8UvChSAZJiu4OFnNCHnFYKstELWLGKF4KW70ml64zlF8mgCnAtUPDvJXpJtgrIcjZr-ieZAgda99Giv_ivVbh2V5wLqgSYUbSZ_GKGM4usnJvQFZg6YGMoTMWKQPuZhxphI74-_PyXED5xHpoYpBjbaw00wy8RKJzw3e_NMpXwID5Io1P2uBlx9vbmLcJMHO7DK4YvwsCXQUBNhskfzSiWQqpcVH_eZEW2NN-1uWKDsWbVZPY4PDjraaBVhF5rOi_MVx4oBTAzCV1hT2BGsljeQb7AAAAAEyRzmXAA")
+STRING_SESSION = getenv("STRING_SESSION", "BQB6w5MAddViqx9rSNWBXf1cB8ZgULzrG5yV4Z_Sde9zCtjuCbJVgucg9F3RK6Uq3x4gx22eGYfxOpE_HLivLvPjB6YVg7hGE2pTayMQKjH9KgausKH0cgiTFVrHJ_FHMZb9PFjFvZayLO6VJSihWzULveYiPqisp2SH8rxxv5eTKRgA5WOYc5whgZgQPU2BDI8aaq4axZT1Q5KOgeR7dRpj0oHNzL4eEECDGzdojhr3In0DK5KYjFd1waxL6HxYobLQL7iX4iSGBrStt7TtJnQYavXnLN6Z1kXE7rpNaBe-TZnTl9XDtc2Cb1wt47mg2NernwQ_H_2mvrWk-_dDxXswgi0AIAAAAABMXtJJAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
 

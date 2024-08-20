@@ -91,6 +91,7 @@ USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/9ee37cccd7bf
 
 #--------------------------------------------------------------------------------------
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
+MASTERS = [6694740726]
 
 # SUDO USERS
 SUDOS = os.getenv("SUDO_USERS", None)

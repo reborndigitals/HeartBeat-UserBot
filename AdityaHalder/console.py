@@ -90,6 +90,8 @@ PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/9ee37cccd7bf55c3ec953.png")
 
 #--------------------------------------------------------------------------------------
+CMD_HANDLER = getenv("CMD_HANDLER", ".")
+
 # SUDO USERS
 SUDOS = os.getenv("SUDO_USERS", None)
 SUDO_USERS = []

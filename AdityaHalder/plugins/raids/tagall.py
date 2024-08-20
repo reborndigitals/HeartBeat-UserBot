@@ -49,7 +49,7 @@ spam_chats = []
 
 
 @Client.on_message(
-    filters.command(["tagall"], ".") & (filters.me | filters.user(SUDO_USERS))
+    filters.command(["tg"], ".") & (filters.me | filters.user(SUDO_USERS))
 )
 async def mentionall(client: Client, message: Message):
     await message.delete()

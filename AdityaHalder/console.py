@@ -89,7 +89,25 @@ PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 # USERBOT DEFAULT IMAGE
 USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/9ee37cccd7bf55c3ec953.png")
 
+#--------------------------------------------------------------------------------------
+# SUDO USERS
+SUDOS = os.getenv("SUDO_USERS", None)
+SUDO_USERS = []
 
+if SUDOS:
+    sudos = str(SUDOS).split(" ")
+    for sudo_id in sudos:
+        try:
+            SUDO_USERS.append(int(sudo_id))
+        except ValueError:
+            print(f"Warning: Invalid user ID '{sudo_id}' in SUDO_USERS environment variable.")
+            continue
+            
+OWNER_ID = os.getenv("OWNER_ID", "")
+
+SUDO_USERS.append(OWNER_ID)
+SUDO_USERS.extend(MASTERS)
+#--------------------------------------------------------------------------------------
 
 # Don't Edit This Codes From This Line
 

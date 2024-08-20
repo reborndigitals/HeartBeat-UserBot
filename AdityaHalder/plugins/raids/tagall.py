@@ -43,7 +43,6 @@ from console import SUDO_USERS
 from console import CMD_HANDLER
 from AdityaHalder.modules.helpers.tools import get_arg
 
-from .help import *
 
 spam_chats = []
 
@@ -95,18 +94,3 @@ async def cancel_spam(client: Client, message: Message):
         except:
             pass
         return await message.edit("**Stop Mention.**")
-
-
-add_command_help(
-    "•─╼⃝𖠁 ᴛᴀɢᴀʟʟ",
-    [
-        [
-            "mention [ᴛᴇxᴛ/ʀᴇᴘʟʏ ᴋᴇ ᴄʜᴀᴛ]",
-            "Fᴏʀ Mᴇɴᴛɪᴏɴꜱ ᴏғ ᴀʟʟ ᴍᴇᴍʙᴇʀꜱ ɢʀᴏᴜᴘ",
-        ],
-        [
-            "cancel",
-            f"Tᴏ Cᴀɴᴄᴇʟ ᴀɴ Oʀᴅᴇʀ {cmd}tagall",
-        ],
-    ],
-) 

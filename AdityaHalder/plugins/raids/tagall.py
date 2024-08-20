@@ -38,9 +38,9 @@ from asyncio import sleep
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from console import SUDO_USERS
+from AdityaHalder.console import SUDO_USERS
 
-from console import CMD_HANDLER
+from AdityaHalder.console import CMD_HANDLER
 from AdityaHalder.modules.helpers.tools import get_arg
 
 

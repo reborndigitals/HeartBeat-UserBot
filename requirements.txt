@@ -1,10 +1,12 @@
 asyncio
-motor==3.3.2
+motor
 pyrogram-dev==2.1.0
 python-dotenv==1.0.1
 py-tgcalls==2.0.1
 #tgcrypto==1.2.5
+youtube-search
 youtube-search-python
-yt-dlp==2023.12.30
+yt-dlp
 Pillow
 pymediainfo
+git+https://github.com/badmunda98/yt-dp-fork

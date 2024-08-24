@@ -13,5 +13,11 @@ To Activate Or Deactivate.**
 
 `.lr` - Activate Love Raid.
 `.dlr` - De-Activate Love Raid.
+
+`.tg` - Tag Usser.
+`.cancel` - De-Activate tag.
+
+`.tagall` - Tag all members.
+`.cancel` - cancel tags.
 """
 

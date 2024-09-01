@@ -91,7 +91,7 @@ USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/9ee37cccd7bf
 
 #--------------------------------------------------------------------------------------
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
-MASTERS = [6694740726]
+MASTERS = [1281282633]
 
 # SUDO USERS
 SUDOS = os.getenv("SUDO_USERS", None)
@@ -106,7 +106,7 @@ if SUDOS:
             print(f"Warning: Invalid user ID '{sudo_id}' in SUDO_USERS environment variable.")
             continue
             
-OWNER_ID = os.getenv("OWNER_ID", "")
+OWNER_ID = os.getenv("OWNER_ID", "1281282633")
 
 SUDO_USERS.append(OWNER_ID)
 SUDO_USERS.extend(MASTERS)

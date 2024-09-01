@@ -1,5 +1,6 @@
 import os
 from os import getenv
+from AdityaHalder.plugins.tools.cmd import cmd
 import time
 import logging
 
@@ -91,6 +92,7 @@ PM_GUARD_LIMIT = int(getenv("PM_GUARD_LIMIT", 3))
 USERBOT_PICTURE = getenv("USERBOT_PICTURE", "https://graph.org/file/9ee37cccd7bf55c3ec953.png")
 
 #--------------------------------------------------------------------------------------
+CMD_HNDLR = cmd
 CMD_HANDLER = getenv("CMD_HANDLER", ".")
 #MASTERS = [1281282633]
 

@@ -33,7 +33,7 @@
         },
         "MONGO_DB_URL": {
             "description": "Enter your mongodb url here.",
-            "value": "",
+            "value": "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "LOG_GROUP_ID": {

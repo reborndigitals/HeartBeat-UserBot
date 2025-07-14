@@ -38,13 +38,23 @@ if os.path.exists("Internal"):
 #MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
 #LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
 
-# Rajesh
-API_ID = int(getenv("API_ID", "13371001"))
-API_HASH = getenv("API_HASH", "f9e4a79850af44c26d736453a95308fc")
-BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAEO6UXBfVcj9BMPXsbdAgApCntlXmYjNTw")
-STRING_SESSION = getenv("STRING_SESSION", "BQB6w5MAB0P37ToN_1_s4uniTtbVt4U-pK1fTdhZn4rN0W8uhJoBhcgorXqDTo13MC1BC_bE3UfZVrB10kKk90j_PEYu5e4ne8yOjZBqUBDyH1z9e2v0MUkplpCvR52EKhsNXwNmTFAah9fAUl5_KohgGF9oYEGXpS1w2dviCUAQ1QYK099ZkMTV6QIJCIHOlujSTIVSMWaOUMtX0qfcD-UlDugc9sKOMInUVKWIPbbWtvDsamt5vqvpAMfFWHZ4Pm9krWDcNaQibCkYTejSfQq2YNahnPVsgOgOk97yFRq2hp2onByXnD1REveN937DRFoatttF2OYj_GbTqmqGw7UYDSF1iwAAAABMXtJJAA")
+# Shashan
+API_ID = int(getenv("API_ID", "24158652"))
+API_HASH = getenv("API_HASH", "9aae2666d08a59f6acc162b640600793")
+BOT_TOKEN = getenv("BOT_TOKEN", "8055370080:AAE6PBCiFwgyEWwExuqcDkZ9IUzpNsZtMN0")
+STRING_SESSION = getenv("STRING_SESSION", "BQFwobwAlHO6EcndLuj0NKDwnZTGaXiZOWj8_w8JHSA-uY8BeXz8WV79MOl-6Ems0s-Oj2FLYEkZkxZekFCu4gYkGmPCa14rKjh3WplujqXzSQuGWgHh3Mlw-imoS2ixlNlvBxqjSFLHwYvwQ4T55Kkmqi71kVguq-Y9JQn-pELVNYp7d0KjgbO74lvHO-kt7zNdltsaJ5WksRLMfu1oXKyfkQ6b97qcAXsIF3GUU215R9Pg-DWURa4nfrTn4-JAvWn_6ImRljRRO8QQmefVUtvz6VW-5-_m_ZV8uzJOe9jHLFcUeuv8hQhg0GLIIpDd-j8HYgJJ-US9I9BnOUvOZ3zxRAaT6AAAAAHWK6WLAA")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001735663878"))
+
+# Rajesh
+#API_ID = int(getenv("API_ID", "13371001"))
+#API_HASH = getenv("API_HASH", "f9e4a79850af44c26d736453a95308fc")
+#BOT_TOKEN = getenv("BOT_TOKEN", "7068876137:AAEO6UXBfVcj9BMPXsbdAgApCntlXmYjNTw")
+#STRING_SESSION = getenv("STRING_SESSION", "BQB6w5MAB0P37ToN_1_s4uniTtbVt4U-pK1fTdhZn4rN0W8uhJoBhcgorXqDTo13MC1BC_bE3UfZVrB10kKk90j_PEYu5e4ne8yOjZBqUBDyH1z9e2v0MUkplpCvR52EKhsNXwNmTFAah9fAUl5_KohgGF9oYEGXpS1w2dviCUAQ1QYK099ZkMTV6QIJCIHOlujSTIVSMWaOUMtX0qfcD-UlDugc9sKOMInUVKWIPbbWtvDsamt5vqvpAMfFWHZ4Pm9krWDcNaQibCkYTejSfQq2YNahnPVsgOgOk97yFRq2hp2onByXnD1REveN937DRFoatttF2OYj_GbTqmqGw7UYDSF1iwAAAABMXtJJAA")
+#MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://heartbeat:Beat7Heart@heartbeat.1h1nbxv.mongodb.net/?retryWrites=true&w=majority")
+#LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002063555777"))
+
+
 
 
 # Book_Villain

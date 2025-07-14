@@ -8,27 +8,27 @@
         "telegram-music-bot",
         "telegram-video-bot"
     ],
-    "repository": "https://github.com/rajeshrakis/Genius-Userbot",
+    "repository": "https://github.com/reborndigitals/HeartBeat-UserBot",
     "stack": "container",
     "env": {
         "API_ID": {
             "description": "Enter your api id here.",
-            "value": "",
+            "value": "24158652",
             "required": true
         },
         "API_HASH": {
             "description": "Enter your api hash here.",
-            "value": "",
+            "value": "9aae2666d08a59f6acc162b640600793",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "Enter your bot token here",
-            "value": "",
+            "value": "8055370080:AAE6PBCiFwgyEWwExuqcDkZ9IUzpNsZtMN0",
             "required": true
         },
         "STRING_SESSION": {
             "description": "Enter your pyrogram v2 string session here.",
-            "value": "",
+            "value": "BQFwobwAlHO6EcndLuj0NKDwnZTGaXiZOWj8_w8JHSA-uY8BeXz8WV79MOl-6Ems0s-Oj2FLYEkZkxZekFCu4gYkGmPCa14rKjh3WplujqXzSQuGWgHh3Mlw-imoS2ixlNlvBxqjSFLHwYvwQ4T55Kkmqi71kVguq-Y9JQn-pELVNYp7d0KjgbO74lvHO-kt7zNdltsaJ5WksRLMfu1oXKyfkQ6b97qcAXsIF3GUU215R9Pg-DWURa4nfrTn4-JAvWn_6ImRljRRO8QQmefVUtvz6VW-5-_m_ZV8uzJOe9jHLFcUeuv8hQhg0GLIIpDd-j8HYgJJ-US9I9BnOUvOZ3zxRAaT6AAAAAHWK6WLAA",
             "required": true
         },
         "MONGO_DB_URL": {
@@ -38,7 +38,7 @@
         },
         "LOG_GROUP_ID": {
             "description": "Enter your private log group id here.",
-            "value": "",
+            "value": "-1001735663878",
             "required": true
         }
     },

@@ -10,4 +10,4 @@ youtube-search-python
 yt-dlp
 Pillow
 pymediainfo
-git+https://github.com/badmunda98/yt-dp-fork
+#git+https://github.com/badmunda98/yt-dp-fork

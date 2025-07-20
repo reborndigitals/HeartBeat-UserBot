@@ -1,6 +1,7 @@
 asyncio
 motor
-pyrogram
+#pyrogram
+kurigram
 pyrogram-dev==2.1.0
 python-dotenv==1.0.1
 py-tgcalls==2.0.1
